@@ -1,5 +1,24 @@
 * @saboleznov
+/.gitignore @saboleznov
 /README.md @saboleznov
+/lectures/DevOps_4.pdf @saboleznov
 /reports/report_template.docx @saboleznov
+/reports/prakticheskaya_2/createAdminUser.groovy @saboleznov
+/reports/prakticheskaya_2/disable-plugin-install-wizard.groovy @saboleznov
+/reports/prakticheskaya_2/jenkins-plugins.txt @saboleznov
+/reports/prakticheskaya_2/provision.sh @saboleznov
+/reports/prakticheskaya_2/report_pr2.docx @saboleznov
+/reports/prakticheskaya_2/Vagrantfile @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/action_provision @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/action_set_name @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/box_meta @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/creator_uid @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/id @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/index_uuid @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/private_key @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/synced_folders @saboleznov
+/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/vagrant_cwd @saboleznov
+/reports/prakticheskaya_2/.vagrant/rgloader/loader.rb @saboleznov
 /scripts/make_codeowners.py @saboleznov
 /tasks/Практическая работа_1.pdf @saboleznov
+/tasks/Практическая работа_2.pdf @saboleznov
