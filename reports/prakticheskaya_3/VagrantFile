@@ -1,0 +1,18 @@
+# Vagrantfile
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/focal64"
+
+  config.vm.define "webserver" do |web|
+    web.vm.network "private_network", ip: "192.168.33.10"
+    web.vm.provision "shell", inline: <<-SHELL
+      apt-get update -y
+    SHELL
+  end
+
+  config.vm.define "dbserver" do |db|
+    db.vm.network "private_network", ip: "192.168.33.11"
+    db.vm.provision "shell", inline: <<-SHELL
+      apt-get update -y
+    SHELL
+  end
+end
