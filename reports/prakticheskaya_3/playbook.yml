@@ -1,0 +1,22 @@
+- name: Configure web server
+  hosts: web_servers
+  become: yes
+  tasks:
+    - name: Ping test
+      ping:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+
+- name: Configure database server
+  hosts: database_servers
+  become: yes
+  tasks:
+    - name: Ping test
+      ping:
+
+    - name: Install MySQL
+      apt:
+        name: default-mysql-server
+        state: present
