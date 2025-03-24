@@ -9,6 +9,7 @@
 /lectures/DevOps_6.pdf @saboleznov
 /lectures/DevOps_7.pdf @saboleznov
 /lectures/DevOps_8.pdf @saboleznov
+/lectures/Итог1-8.pdf @saboleznov
 /reports/report_template.docx @saboleznov
 /reports/prakticheskaya_2/createAdminUser.groovy @saboleznov
 /reports/prakticheskaya_2/disable-plugin-install-wizard.groovy @saboleznov
@@ -28,10 +29,16 @@
 /reports/prakticheskaya_2/.vagrant/rgloader/loader.rb @saboleznov
 /reports/prakticheskaya_3/inventory.ini @saboleznov
 /reports/prakticheskaya_3/playbook.yml @saboleznov
-/reports/prakticheskaya_3/report_pr3.docx @saboleznov
 /reports/prakticheskaya_3/VagrantFile @saboleznov
 /reports/prakticheskaya_3/.vagrant/rgloader/loader.rb @saboleznov
+/reports/prakticheskaya_4/app.py @saboleznov
+/reports/prakticheskaya_4/docker-compose.yml @saboleznov
+/reports/prakticheskaya_4/Dockerfile @saboleznov
+/reports/prakticheskaya_4/init_db.sql @saboleznov
+/reports/prakticheskaya_4/report_pr4.docx @saboleznov
+/reports/prakticheskaya_4/templates/index.html @saboleznov
 /scripts/make_codeowners.py @saboleznov
 /tasks/Практическая работа_1.pdf @saboleznov
 /tasks/Практическая работа_2.pdf @saboleznov
 /tasks/Практическая работа_3.pdf @saboleznov
+/tasks/Практическая работа_4.pdf @saboleznov
