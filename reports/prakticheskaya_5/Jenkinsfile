@@ -1,0 +1,46 @@
+pipeline {
+    agent any
+    environment {
+        DOCKER_HUB_CREDENTIALS = credentials('docker-hub-creditials') // Имя креденшиала для Docker Hub
+        DOCKER_IMAGE_NAME = 'dbyavol/prakticheskaya_5:latest'      // Имя образа в формате username/repo:tag
+        DOCKERFILE_PATH = 'reports/prakticheskaya_4/Dockerfile'     // Путь к Dockerfile
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git(
+                    url: 'https://git.miem.hse.ru/project_seminar_2025/group224/saboleznov.git',
+                    branch: 'master',
+                    credentialsId: 'token'
+                )
+            }
+        }
+        stage('Docker Build') {
+            steps {
+                script {
+                    docker.build(DOCKER_IMAGE_NAME, "-f ${DOCKERFILE_PATH} .")
+                }
+            }
+        }
+        stage('Docker Push') {
+            steps {
+                script {
+                    sh '''
+                        echo "Logging into Docker Hub..."
+                        docker login -u ${DOCKER_HUB_CREDENTIALS_USR} -p ${DOCKER_HUB_CREDENTIALS_PSW}
+                        echo "Pushing Docker image: ${DOCKER_IMAGE_NAME} to Docker Hub"
+                        docker push ${DOCKER_IMAGE_NAME}
+                    '''
+                }
+            }
+        }
+    }
+    post {
+        success {
+            echo 'Docker image build and push successful!'
+        }
+        failure {
+            echo 'Docker image build or push failed!'
+        }
+    }
+}
