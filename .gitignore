@@ -5,4 +5,8 @@
 /reports/prakticheskaya_3/.vagrant/ 
 /reports/prakticheskaya_3/*.log 
 
+/reports/prakticheskaya_5/.vagrant/ 
+/reports/prakticheskaya_5/*.log 
+/reports/prakticheskaya_5/jenkins_cli.*
+
 /lectures
