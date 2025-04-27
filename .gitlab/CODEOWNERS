@@ -9,6 +9,7 @@
 /lectures/DevOps_6.pdf @saboleznov
 /lectures/DevOps_7.pdf @saboleznov
 /lectures/DevOps_8.pdf @saboleznov
+/lectures/DevOps_9.pdf @saboleznov
 /lectures/Итог1-8.pdf @saboleznov
 /reports/report_template.docx @saboleznov
 /reports/prakticheskaya_2/createAdminUser.groovy @saboleznov
@@ -17,16 +18,6 @@
 /reports/prakticheskaya_2/provision.sh @saboleznov
 /reports/prakticheskaya_2/report_pr2.docx @saboleznov
 /reports/prakticheskaya_2/Vagrantfile @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/action_provision @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/action_set_name @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/box_meta @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/creator_uid @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/id @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/index_uuid @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/private_key @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/synced_folders @saboleznov
-/reports/prakticheskaya_2/.vagrant/machines/jenkins/virtualbox/vagrant_cwd @saboleznov
-/reports/prakticheskaya_2/.vagrant/rgloader/loader.rb @saboleznov
 /reports/prakticheskaya_3/inventory.ini @saboleznov
 /reports/prakticheskaya_3/playbook.yml @saboleznov
 /reports/prakticheskaya_3/VagrantFile @saboleznov
@@ -37,8 +28,26 @@
 /reports/prakticheskaya_4/init_db.sql @saboleznov
 /reports/prakticheskaya_4/report_pr4.docx @saboleznov
 /reports/prakticheskaya_4/templates/index.html @saboleznov
+/reports/prakticheskaya_5/createAdminUser.groovy @saboleznov
+/reports/prakticheskaya_5/disable-plugin-install-wizard.groovy @saboleznov
+/reports/prakticheskaya_5/jenkins-plugins.txt @saboleznov
+/reports/prakticheskaya_5/Jenkinsfile @saboleznov
+/reports/prakticheskaya_5/provision.sh @saboleznov
+/reports/prakticheskaya_5/report_pr5.docx @saboleznov
+/reports/prakticheskaya_5/Vagrantfile @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/action_provision @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/action_set_name @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/box_meta @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/creator_uid @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/id @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/index_uuid @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/private_key @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/synced_folders @saboleznov
+/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/vagrant_cwd @saboleznov
+/reports/prakticheskaya_5/.vagrant/rgloader/loader.rb @saboleznov
 /scripts/make_codeowners.py @saboleznov
 /tasks/Практическая работа_1.pdf @saboleznov
 /tasks/Практическая работа_2.pdf @saboleznov
 /tasks/Практическая работа_3.pdf @saboleznov
 /tasks/Практическая работа_4.pdf @saboleznov
+/tasks/Практическая работа_5.pdf @saboleznov
