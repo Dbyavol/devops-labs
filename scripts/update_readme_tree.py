@@ -27,7 +27,6 @@ def extract_existing_descriptions(readme_text):
             path_part = line.split("—")[0].rstrip()
             desc = line.split("—", 1)[1].strip()
             description_map[path_part] = desc
-    print(description_map)
     return description_map
 
 def generate_tree_lines(ignore_spec, existing_descriptions):
