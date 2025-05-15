@@ -1,18 +1,6 @@
 * @saboleznov
 /.gitignore @saboleznov
 /README.md @saboleznov
-/lectures/DevOps_1.pdf @saboleznov
-/lectures/DevOps_10.pdf @saboleznov
-/lectures/DevOps_11.pdf @saboleznov
-/lectures/DevOps_12.pdf @saboleznov
-/lectures/DevOps_2.pdf @saboleznov
-/lectures/DevOps_3.pdf @saboleznov
-/lectures/DevOps_4.pdf @saboleznov
-/lectures/DevOps_5.pdf @saboleznov
-/lectures/DevOps_6.pdf @saboleznov
-/lectures/DevOps_7.pdf @saboleznov
-/lectures/DevOps_8.pdf @saboleznov
-/lectures/DevOps_9.pdf @saboleznov
 /reports/report_template.docx @saboleznov
 /reports/prakticheskaya_2/createAdminUser.groovy @saboleznov
 /reports/prakticheskaya_2/disable-plugin-install-wizard.groovy @saboleznov
@@ -23,7 +11,6 @@
 /reports/prakticheskaya_3/inventory.ini @saboleznov
 /reports/prakticheskaya_3/playbook.yml @saboleznov
 /reports/prakticheskaya_3/VagrantFile @saboleznov
-/reports/prakticheskaya_3/.vagrant/rgloader/loader.rb @saboleznov
 /reports/prakticheskaya_4/app.py @saboleznov
 /reports/prakticheskaya_4/docker-compose.yml @saboleznov
 /reports/prakticheskaya_4/Dockerfile @saboleznov
@@ -37,22 +24,22 @@
 /reports/prakticheskaya_5/provision.sh @saboleznov
 /reports/prakticheskaya_5/report_pr5.docx @saboleznov
 /reports/prakticheskaya_5/Vagrantfile @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/action_provision @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/action_set_name @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/box_meta @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/creator_uid @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/id @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/index_uuid @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/private_key @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/synced_folders @saboleznov
-/reports/prakticheskaya_5/.vagrant/machines/jenkins/virtualbox/vagrant_cwd @saboleznov
-/reports/prakticheskaya_5/.vagrant/rgloader/loader.rb @saboleznov
 /reports/prakticheskaya_6/deployment.yaml @saboleznov
 /reports/prakticheskaya_6/Dockerfile @saboleznov
 /reports/prakticheskaya_6/index.js @saboleznov
 /reports/prakticheskaya_6/ingress.yaml @saboleznov
 /reports/prakticheskaya_6/report_pr6.docx @saboleznov
 /reports/prakticheskaya_6/service.yaml @saboleznov
+/reports/prakticheskaya_7/docker-compose.yml @saboleznov
+/reports/prakticheskaya_7/report_pr7.docx @saboleznov
+/reports/prakticheskaya_7/configs/elasticsearch/config.yml @saboleznov
+/reports/prakticheskaya_7/configs/filebeat/config.yml @saboleznov
+/reports/prakticheskaya_7/configs/kibana/config.yml @saboleznov
+/reports/prakticheskaya_7/configs/logstash/config.yml @saboleznov
+/reports/prakticheskaya_7/configs/logstash/pipelines.yml @saboleznov
+/reports/prakticheskaya_7/configs/logstash/pipelines/service_stamped_json_logs.conf @saboleznov
+/reports/prakticheskaya_7/host_metrics_app/host_metrics_app.log @saboleznov
+/reports/prakticheskaya_7/host_metrics_app/main.py @saboleznov
 /scripts/make_codeowners.py @saboleznov
 /tasks/Практическая работа_1.pdf @saboleznov
 /tasks/Практическая работа_2.pdf @saboleznov
@@ -60,3 +47,4 @@
 /tasks/Практическая работа_4.pdf @saboleznov
 /tasks/Практическая работа_5.pdf @saboleznov
 /tasks/Практическая работа_6.pdf @saboleznov
+/tasks/Практическая работа_7.pdf @saboleznov
