@@ -9,4 +9,8 @@
 /reports/prakticheskaya_5/*.log 
 /reports/prakticheskaya_5/jenkins_cli.*
 
+/reports/prakticheskaya_7/docker_volumes/ 
+/reports/prakticheskaya_7/host_metrics_app/*.log
+
 /lectures
+.venv
